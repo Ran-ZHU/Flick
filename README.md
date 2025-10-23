@@ -6,7 +6,7 @@
   <img src="https://img.shields.io/badge/Status-Code%20Coming%20Soon-orange.svg" alt="Code Coming Soon">
 </p>
 
-This repository provides the **official implementation** of **Flick: Empowering Federated Learning with Commonsense Knowledge** — accepted to **NeurIPS 2025**.
+This repository provides the official implementation of **Flick: Empowering Federated Learning with Commonsense Knowledge** — accepted to **NeurIPS 2025**.
 
 ---
 
