@@ -12,4 +12,4 @@ This repository provides the official implementation of **Flick: Empowering Fede
 
 > **🚧 Code is coming soon!**  
 > We are preparing the open-source release including training scripts, configs, and reproducibility instructions.  
-> Expected release: **November, 2026**
+> Expected release: **November, 2025**
