@@ -12,14 +12,13 @@ This repository provides the official implementation of [**Flick: Empowering Fed
 ## Introduction
 Federated Learning (FL) has emerged as a privacy-preserving framework for training models on data generated at the edge. 
 However, the heterogeneity of data silos (e.g., label skew and domain shift) often leads to inconsistent learning objectives and suboptimal model performance. 
-Inspired by the data-driven approach, we propose Flick, a novel data generation framework for heterogeneous \textbf{F}ederated \textbf{L}earning w\textbf{i}th \textbf{C}ommonsense \textbf{K}nowledge from Large Language Models (LLMs). 
+Inspired by the data-driven approach, we propose Flick, a novel data generation framework for heterogeneous **F**ederated **L**earning w**i**th **C**ommonsense **K**nowledge from Large Language Models (LLMs). 
 In Flick, the client performs the local data summary to capture client-specific knowledge in textual form. The central server then distills task-relevant, high-quality knowledge from the out-of-the-box LLM - guided by cross-client-specific insights - to generate informative text prompts. 
 These prompts direct a generative model in producing synthetic data, enabling global model fine-tuning and local data compensation. 
 This process gradually aligns the label and feature distributions across clients. 
 Extensive results on three datasets demonstrate that Flick improves the global model accuracy by up to 11.43\%, and accelerates convergence by up to $12.9\times$, validating its effectiveness in addressing data heterogeneity.
 
-![overview](./system_overview.pdf)
-
+![overview](./system_overview.png)
 
 ## Dependencies
 - Python 3.8.15
