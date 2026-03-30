@@ -18,7 +18,7 @@ These prompts direct a generative model in producing synthetic data, enabling gl
 This process gradually aligns the label and feature distributions across clients. 
 Extensive results on three datasets demonstrate that Flick improves the global model accuracy by up to 11.43\%, and accelerates convergence by up to $12.9\times$, validating its effectiveness in addressing data heterogeneity.
 
-![overview](./system_overview.png)
+![overview](./system_overview.pdf)
 
 
 ## Dependencies
