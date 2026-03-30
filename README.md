@@ -46,10 +46,10 @@ python main.py -c conf.json
 ```
 
 ## Training Parameters
-In [conf.json](.utils/conf.json), you can change the hyper-parameters and some settings. 
+In [conf.json](./utils/conf.json), you can change the hyper-parameters and some settings. 
 
 * Here we give the detailed 
-description for each parameter defined in [conf.json](.utils/conf.json):
+description for each parameter defined in [conf.json](./utils/conf.json):
 
 | Parameter               | Description                                                                                 |
 |-------------------------|---------------------------------------------------------------------------------------------|
