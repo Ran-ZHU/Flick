@@ -1,0 +1,34 @@
+{
+	"openai_api_key": "YOUR_API_KEY",
+
+	"data" : "pacs",
+
+	"data_distribution": "dirichlet-0.1",
+
+	"num_clients" : 20,
+
+	"k": 4,
+
+	"global_epochs" : 150,
+
+	"local_epochs" : 5,
+
+	"batch_size" : 64,
+
+	"lr" : 0.01,
+
+	"flick": "false",
+
+	"retrieval_threshold": 0.8,
+
+	"cls_eval_threshold": 0.9,
+
+	"size_of_data_pool": 25,
+
+	"data_budget": 5,
+
+	"data_generation": "df",
+
+	"record_file_num": "2"
+
+}
