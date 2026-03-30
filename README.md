@@ -50,22 +50,22 @@ In [conf.json](./utils/conf.json), you can change the hyper-parameters and some 
 * Here we give the detailed 
 description for each parameter defined in [conf.json](./utils/conf.json):
 
-| Parameter                | Description                                                                                 |
-|--------------------------|---------------------------------------------------------------------------------------------|
-| ` openai_api_key`        | openai api key to use                                                                       |
-| ` data`                  | dataset to use  [pcas/office-caltech/domainnet]                                             |
-| ` data_distribution`     | data distribution of clients                                                                |
-| ` num_clients`           | number of all clients                                                                       |
-| ` k`                     | number of clients involved in each round                                                    |
-| ` global_epochs`         | number of global epochs                                                                     |
-| ` local_epochs`          | number of local epochs, defalut is 5                                                        |
-| ` lr`                    | learning rate adopted in local training phase, default is 0.01                              |
-| ` batch_size`            | batch size adopted in local training phase, default is 64 for PACS and 32 for Office-Caltch |
-| ` retrieval_threshold`   | text similarity threshold $T_s$, default is 0.8 for PACS and 0.7 for Office-Caltch          |
-| ` cls_eval_threshold`    | validation threshold $T_v$, default is 0.9 for PACS and 0.8 for Office-Caltch               |
-| ` size_of_data_pool`     | data pool size, default is 25                                                               |
-| ` data_budget`           | data generation budget $G$, default is 5                                                    |
-| ` data_generation`       | way of data generation [diffusion model(df)/ dall-e-2], default is df                       |
+| Parameter              | Description                                                                                   |
+|------------------------|-----------------------------------------------------------------------------------------------|
+| ` openai_api_key`      | openai api key to use                                                                         |
+| ` data`                | dataset to use  [pcas/office-caltech/domainnet]                                               |
+| ` data_distribution`   | data distribution of clients                                                                  |
+| ` num_clients`         | number of all clients                                                                         |
+| ` k`                   | number of clients involved in each round                                                      |
+| ` global_epochs`       | number of global epochs                                                                       |
+| ` local_epochs`        | number of local epochs, defalut is 5                                                          |
+| ` lr`                  | learning rate adopted in local training phase, default is 0.01                                |
+| ` batch_size`          | batch size adopted in local training phase, default is 64 for PACS and 32 for Office-Caltch   |
+| ` retrieval_threshold` | text similarity threshold $T_s$, default is 0.8 for PACS and 0.7 for Office-Caltch            |
+| ` cls_eval_threshold`  | validation threshold $T_v$, default is 0.9 for PACS and 0.8 for Office-Caltch                 |
+| ` size_of_data_pool`   | data pool size, default is 25                                                                 |
+| ` data_budget`         | data generation budget $G$, default is 5                                                      |
+| ` data_generation`     | way of data generation [diffusion model(df)/ dall-e-2], default is df                         |
 
 [//]: # (| ` cap_dp`               | if apply epsilon-differential privacy                                                       |)
 
