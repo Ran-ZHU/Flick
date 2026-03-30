@@ -71,3 +71,22 @@ description for each parameter defined in [conf.json](./utils/conf.json):
 [//]: # (| ` cap_dp`               | if apply epsilon-differential privacy                                                       |)
 
 [//]: # (| ` cap_dp_ratio`         | value of epsilon                                                                            |)
+
+
+## Citation
+
+If Flick is useful for your research, please consider citing it:
+
+```
+@inproceedings{
+zhu2025flick,
+title={Flick: Empowering Federated Learning with Commonsense Knowledge},
+author={Ran Zhu and Mingkun Yang and Shiqiang Wang and Jie Yang and Qing Wang},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=7ieS4EYKnB}
+}
+```
+
+## Contact
+Feel free to contact authors or leave an issue if face with a problem when using this implementation.
