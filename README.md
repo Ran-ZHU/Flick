@@ -15,7 +15,7 @@ Inspired by the data-driven approach, we propose Flick, a novel data generation 
 In Flick, the client performs the local data summary to capture client-specific knowledge in textual form. The central server then distills task-relevant, high-quality knowledge from the out-of-the-box LLM - guided by cross-client-specific insights - to generate informative text prompts. 
 These prompts direct a generative model in producing synthetic data, enabling global model fine-tuning and local data compensation. 
 This process gradually aligns the label and feature distributions across clients. 
-Extensive results on three datasets demonstrate that Flick improves the global model accuracy by up to 11.43\%, and accelerates convergence by up to $12.9\times$, validating its effectiveness in addressing data heterogeneity.
+Extensive results on three datasets demonstrate that Flick improves the global model accuracy by up to 11.43\%, and accelerates convergence by up to 12.9$\times$, validating its effectiveness in addressing data heterogeneity.
 
 ![overview](./system_overview.png)
 
@@ -29,7 +29,7 @@ pip install -r requirements.txt
 ```
 
 ## Data Preparation
-For PACS, Office-Caltech and DomainNet datasets, please download and unzip data under `data/` file catalog. The dataset folders should be named `PACS` and `office_caltech_10`, respectively.
+For PACS, Office-Caltech and DomainNet datasets, please download and unzip data under `data/` file catalog. The dataset folders should be named `PACS`, `office_caltech_10`, and `domainnet` respectively.
 ```
 data/
 |–– PACS/ 
@@ -41,7 +41,7 @@ data/
 
 To train the model using Flick proposed in this paper, run the command **using your own openai api key**:
 ```
-python main.py -c conf.json
+python main.py -c utilis/conf.json
 ```
 
 ## Training Parameters
