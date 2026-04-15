@@ -8,7 +8,7 @@
 This repository provides the official implementation of [**Flick: Empowering Federated Learning with Commonsense Knowledge**](https://neurips.cc/virtual/2025/loc/san-diego/poster/119680) — accepted to **NeurIPS 2025**.
 
 
-## Introductionx
+## Introduction
 Federated Learning (FL) has emerged as a privacy-preserving framework for training models on data generated at the edge. 
 However, the heterogeneity of data silos (e.g., label skew and domain shift) often leads to inconsistent learning objectives and suboptimal model performance. 
 Inspired by the data-driven approach, we propose Flick, a novel data generation framework for heterogeneous **F**ederated **L**earning w**i**th **C**ommonsense **K**nowledge from Large Language Models (LLMs). 
